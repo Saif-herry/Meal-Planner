@@ -59,7 +59,7 @@
               />
             </aside>
             <button
-              className="mt-4 w-[85%] bg-blue-500 rounded-full text-white shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] h-12 flex items-center justify-center"
+              className="hover:bg-blue-800 cursor-pointer mt-4 w-[85%] bg-blue-500 rounded-full text-white shadow-[rgba(50,_50,_105,_0.15)_0px_2px_5px_0px,_rgba(0,_0,_0,_0.05)_0px_1px_1px_0px] h-12 flex items-center justify-center"
               @click="register"
             >
               Register
