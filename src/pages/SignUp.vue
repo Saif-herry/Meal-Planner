@@ -1,14 +1,16 @@
 <template>
-  <section className="w-full h-screen flex items-center justify-center">
+  <section className="w-full h-full flex items-center justify-center">
     <aside
-      className="flex flex-row justify-center items-center w-[80%] py-2 bg-white rounded-2xl"
+      className=" w-full lg:w-[80%] lg:py-2 lg:my-12 xl:my-8 py-4 flex flex-col lg:flex-row justify-center items-center bg-white rounded-2xl"
     >
       <div className="w-full h-full flex items-center justify-center ">
         <aside className="w-[95%] h-[95%] bg-[#d0df44] rounded-lg my-1">
           <img src="login-bg.png" alt="broken-img" />
         </aside>
       </div>
-      <div className="flex items-center justify-center w-full h-full ">
+      <div
+        className=" w-full h-full px-4 lg:px-0 flex items-center justify-center  "
+      >
         <aside className="flex flex-col w-full h-full rounded-lg ">
           <div
             className="w-full flex flex-col justify-center items-center pt-2 "
