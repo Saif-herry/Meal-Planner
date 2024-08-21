@@ -3,7 +3,7 @@
     v-if="isVisible"
     class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
   >
-    <div class="w-1/3 p-6 bg-white rounded-md">
+    <div class="lg:w-1/3 md:w-[70%] w-[95%] p-6 bg-white rounded-md">
       <h2 class="mb-4 text-2xl">
         {{ isEditMode ? 'Edit Meal' : 'Add New Meal' }}
       </h2>

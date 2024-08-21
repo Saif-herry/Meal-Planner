@@ -6,7 +6,7 @@
       <h1>Weekly Planned Meal</h1>
     </div>
     <div
-      class="grid items-center justify-center w-full grid-cols-3 gap-5 px-10"
+      class="grid items-center justify-center w-full grid-cols-1 gap-5 px-0 md:grid-cols-2 lg:px-10 lg:grid-cols-3"
     >
       <div v-for="(day, index) in daysOfWeek" :key="index" class="day-column">
         <div class="flex items-center justify-center w-full font-bold">
