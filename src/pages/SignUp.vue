@@ -1,7 +1,7 @@
 <template>
   <section className="w-full h-full flex items-center justify-center">
     <aside
-      className=" w-full lg:w-[80%] lg:py-2 lg:my-12 xl:my-8 py-4 flex flex-col lg:flex-row justify-center items-center bg-white rounded-2xl"
+      className=" w-full lg:w-[80%] lg:py-2 lg:my-12 xl:my-8 py-2 md:py-5  flex flex-col lg:flex-row justify-center items-center bg-white rounded-2xl"
     >
       <div className="w-full h-full flex items-center justify-center ">
         <aside className="w-[95%] h-[95%] bg-[#d0df44] rounded-lg my-1">
