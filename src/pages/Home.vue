@@ -1,7 +1,9 @@
 <template>
   <section class="flex flex-col w-full">
-    <div class="flex flex-row justify-between w-full px-10 mt-12">
-      <div class="flex flex-row items-start justify-center gap-8">
+    <div
+      class="flex flex-col justify-between w-full gap-8 px-10 mt-12 md:flex-row"
+    >
+      <div class="flex flex-col items-start justify-center gap-8 lg:flex-row">
         <input
           type="text"
           v-model="searchQuery"
@@ -16,7 +18,7 @@
         />
       </div>
 
-      <div class="flex flex-row items-center justify-center gap-4">
+      <div class="flex flex-col items-center justify-center gap-4 lg:flex-row">
         <router-link
           to="/weekly-meal"
           class="px-6 py-2 text-white bg-purple-500 rounded-md"
@@ -53,11 +55,13 @@
         @edit-meal="editMeal"
       />
     </div>
-    <div class="grid items-center justify-center w-full grid-cols-3 gap-5 p-10">
+    <div
+      class="grid items-center justify-center w-full grid-cols-1 gap-5 p-4 md:grid-cols-2 lg:p-10 lg:grid-cols-3"
+    >
       <div
         v-for="(item, index) in filteredMeals"
         :key="index"
-        class="h-96 rounded-md flex flex-col gap-1 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white"
+        class="lg:h-96 h-full pb-4 lg:pb-0 rounded-md flex flex-col gap-1 shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-white"
       >
         <div class="w-full h-52">
           <img
