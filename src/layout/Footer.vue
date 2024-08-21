@@ -10,14 +10,14 @@
       <h1 className="text-2xl font-semibold">Meal Planner</h1>
     </div>
     <div
-      className="flex flex-col items-center justify-normal gap-1 text-gray-600 text-sm pt-2"
+      className="flex flex-col items-center justify-normal px-3 md:px-0 gap-1 text-gray-600 text-sm pt-2"
     >
       <p>© 2023 Starworks Prime Digital Solutions Private Limited™</p>
       <p>
         HQ: AIC-MIT ADT Incubation Centre, MIT ADT University - Pune,
         Maharashtra 412201
       </p>
-      <div class="flex flex-row justify-center items-center gap-5 pt-2">
+      <div class="flex flex-row items-center justify-center gap-5 pt-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 448 512"
@@ -50,7 +50,7 @@
       </div>
 
       <div
-        class="flex flex-row justify-center items-center gap-8 text-base pt-4 pb-8"
+        class="flex flex-row items-center justify-center gap-8 pt-4 pb-8 text-base"
       >
         <span>Privacy Policy</span>
         <span>Terms & Conditions</span>

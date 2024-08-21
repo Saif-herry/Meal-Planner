@@ -13,7 +13,7 @@
       <h1>Meal Planner</h1>
     </aside>
     <aside
-      className="w-full flex flex-row items-center justify-center gap-12 cursor-pointer"
+      className="w-full hidden md:flex flex-row items-center justify-center gap-4 lg:gap-12 cursor-pointer"
     >
       <span>Home</span>
       <span>About</span>
